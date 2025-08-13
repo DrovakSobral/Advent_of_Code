@@ -1,5 +1,4 @@
-input = open("/home/drovak/Programming_Projects/GitHub_Repos/Advent_of_Code/2024/day_1/puzzle_input")
-print(input.read())
+input = open("2024/day_1/puzzle_input")
 combined_list_raw = input.read().split()
 list_1 = []
 list_2 = []
