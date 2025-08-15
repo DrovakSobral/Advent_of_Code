@@ -1,4 +1,4 @@
-input = open("2024/day_1/puzzle_input")
+input = open("2024/day_1/puzzle_input.txt")
 combined_list_raw = input.read().split()
 list_1 = []
 list_2 = []

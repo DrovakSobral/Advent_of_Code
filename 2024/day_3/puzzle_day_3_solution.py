@@ -1,6 +1,6 @@
 import re as re
 
-input = open("2024/day_3/puzzle_input")
+input = open("2024/day_3/puzzle_input.txt")
 raw_input = input.read()
 unucorrupted_memory_list = re.findall(r"mul\(\d\,\d\)|mul\(\d\,\d\d\)|mul\(\d\,\d\d\d\)|mul\(\d\d\,\d\)|mul\(\d\d\,\d\d\)|mul\(\d\d\,\d\d\d\)|mul\(\d\d\d\,\d\)|mul\(\d\d\d\,\d\d\)|mul\(\d\d\d\,\d\d\d\)|do\(\)|don\'t\(\)", raw_input)
 

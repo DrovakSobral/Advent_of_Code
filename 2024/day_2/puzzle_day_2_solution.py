@@ -1,4 +1,4 @@
-input = open("2024/day_2/puzzle_input")
+input = open("2024/day_2/puzzle_input.txt")
 raw_input = input.read().split("\n")
 
 master_report_list = []
